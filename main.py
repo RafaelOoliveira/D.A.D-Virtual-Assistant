@@ -11,4 +11,4 @@ with sr.Microphone() as source:
         audio = r.listen(source) #Define o microfone como fonte de áudio
 
     
-        print(r.recognize_google(audio))
+        print(r.recognize_google(audio, language='pt'))
